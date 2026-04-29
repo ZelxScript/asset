@@ -68,7 +68,7 @@ end
 
 
 
-local a a={cache={}, load=function(b)if not a.cache[b]then a.cache[b]={c=a[b]()}end return a.cache[b].c end}do function a.a()local b=(cloneref or clonereference or function(b)return b end)
+local a; a={cache={}, load=function(b)if not a.cache[b]then a.cache[b]={c=a[b]()}end return a.cache[b].c end}do function a.a()local b=(cloneref or clonereference or function(b)return b end)
 
 local d={Icons={},AddIcons=function()end,SetIconsType=function()end,Init=function()end,GetIcon=function()return{}end,new=function()return{}end}
 
